@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #1b4ba3 0%, #1999bd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background-color: #1878b8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5rem;
+    color: white;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+
+.form h2 {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-input-container {
+    display: flex;
+}
+
+#city-input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(61, 60, 60);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form input {
+    padding: 0.8rem;
+    border: none;
+    flex: 1px;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #61b4e4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #379fdb;
+}
+
+#weather-data {
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: larger;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #umidity {
+    border-right: 1px solid #ffffff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+.form h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+.rain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.raindrop {
+    position: absolute;
+    width: 2px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    animation: fall 2s linear infinite;
+
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(100vh);
+    }
+}
