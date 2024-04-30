@@ -3,5 +3,6 @@ Esse projeto é um simples menu de clima usando a API OpenWeather, basta colocar
 Obs: É preciso colocar sua chave api e a url do site da api que você pegar, está comentado no código onde é preciso fazer isso.
 
 
-![image](https://github.com/bernardo-dmartins/Weathermenu/assets/122489427/9c7cca91-24de-4a2e-9c96-86e53f6f0379)
+![image](https://github.com/bernardo-dmartins/Weathermenu/assets/122489427/53acb637-8c87-4359-857d-a89befe02f89)
+
 
